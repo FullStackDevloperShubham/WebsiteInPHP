@@ -1,0 +1,231 @@
+html,
+body {
+  margin: 0;
+}
+#IMG-1 {
+  margin: 0;
+  width: 100%;
+  height: 200px;
+}
+#NAVIGATION {
+  height: 250px;
+  width: 100%;
+  background-color: lightblue;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  font-size: large;
+}
+/* #MAIN-CONTENT{
+     display: flex;
+     height: 500px;
+     width: 400px;
+     /* background-color:aqua; */
+/* margin-left: 200px; */
+/* } */
+
+#IMG-2 {
+  height: 480px;
+  width: 380px;
+  margin-top: 60px;
+  margin-left: 200px;
+}
+#message {
+  position: absolute;
+  top: 530px;
+  height: 540px;
+  width: 380px;
+  margin-left: 600px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 52px lightslategray;
+}
+
+#NEWSANDANNOCEMENT {
+  position: absolute;
+  top: 900px;
+  height: 480px;
+  width: 380px;
+  margin-left: 1100px;
+  display: block;
+}
+#LIST {
+  position: absolute;
+  top: 80px;
+  height: 1250px;
+  width: 380px;
+  /* margin-left: 900px; */
+  background-color: cornsilk;
+  box-shadow: 2px 2px 52px black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+#LIST:hover {
+  cursor: pointer;
+}
+i {
+  text-decoration: underline royalblue;
+}
+a {
+  color: blue;
+  text-decoration: none;
+}
+/* events css */
+#EVENTS {
+  display: flex;
+  /* position: absolute; */
+  /* top: 1100px; */
+  /* display: flex; */
+  margin-top: 1100px;
+  height: 100px;
+  width: 380px;
+  /* background-color: red; */
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+  cursor: pointer;
+  gap: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 52px lightslategray;
+}
+/* #FOOTER{
+    height: 200px;
+    width: 300px;
+    background-color: red;
+    display: block;
+    align-items: center;
+    justify-content: center;
+} */
+/* QUICK LINK CSS */
+#TITLE {
+  text-decoration: underline;
+}
+#NAAC {
+  margin-left: 200px;
+  border: 1px solid black;
+}
+#UGC_LOGO {
+  margin-left: 20px;
+  border: 1px solid red;
+}
+.Group {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+}
+#INFLI {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  border: 1px solid blue;
+}
+#NDL {
+  position: relative;
+  top: -80px;
+  margin-left: 290px;
+  display: flex;
+  border: 1px solid green;
+}
+
+/* NEXT QUICK LINK */
+#NEXT-QUICK-LINK {
+  position: relative;
+  top: -238px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  /* border: 1px solid gray; */
+  /* height: 200px; */
+  width: 200px;
+  margin-left: 562px;
+  align-items: start;
+  justify-content: start;
+  justify-items: start;
+}
+/* DOWNLOAD CSS */
+#DOWNLOAD,
+#SPORT,
+#RESULT,
+#RTI {
+  font-size: 30px;
+  font-family: serif;
+  padding: 10px;
+  color: darkturquoise;
+}
+
+/* next-2-quick-link */
+#NEXT-2-QUICK-LINK {
+  position: relative;
+  top: -512px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  /* border: 1px solid gray; */
+  /* height: 200px; */
+  width: 200px;
+  margin-left: 900px;
+  align-items: start;
+  justify-content: start;
+  justify-items: start;
+}
+
+/* bellow code used for remove the extra space from buttom */
+#FOOTER {
+  height: 357px;
+  left: 0;
+  margin-top: -37px;
+  width: 100%;
+  background-color: beige;
+}
+
+/* DROPDOWN MENU */
+/* Dropdown Button */
+.dropbtn {
+  /* background-color: #04aa6d; */
+  /* color: white; */
+  color: royalblue;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /* background-color: #f1f1f1; */
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+/* .dropdown-content a:hover { */
+  /* background-color: #ddd; */
+/* } */
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+} */
