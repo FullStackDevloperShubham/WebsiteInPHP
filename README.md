@@ -1,6 +1,6 @@
 # WebsiteInPHP
-SangolaCollageSangola_Clone
+SangolaCollageSangola_Clone<br>
 
-#USed tech stack 
+#USed tech stack <br>
 #html,css,php
 
